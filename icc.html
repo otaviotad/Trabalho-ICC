@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Comandos GitHub</title>
+    </head>
+
+    <body>
+        <h1>Trabalho de ICC - Conhecendo GitHub</h1>
+        <br>
+        <p><small>logo GitHub</small></p>
+        <img src="imagens/github.png">
+
+        <br>
+
+        <h2>O que é o GitHub e para que serve?</h2>
+        <br>
+        <p>
+            O <b>GitHub</b> é uma plataforma de desenvolvimento colaborativo que aloja projetos na nuvem utilizando 
+            o sistema de controle de versões chamado Git. A plataforma ajuda os desenvolvedores a armazenar 
+            e administrar o código e faz o registro de mudanças.
+        </p>
+        
+        <br>
+
+        <h2>Quais as <mark>vantagens</mark> do GitHub?</h2>
+        <ul>
+            <li>Controle de versão eficiente com o Git.</li>
+            <li>Facilita a colaboração e o trabalho em equipe.</li>
+            <li>Hospedagem centralizada na nuvem para seus repositórios de código.</li>
+            <li>Comunidade ativa e oportunidades de networking.</li>
+            <li>Integração com ferramentas e serviços populares.</li>
+            <li>Possibilidade de mostrar seu trabalho e construir um portfólio.</li>
+        </ul>
+
+        <br>
+
+
+        <h3>Quais são os comandos utilizados no GitHub?</h3> 
+        <p>São diversos, mas abaixo estão alguns exemplos.</p>
+
+        <table>
+            <tr>
+                <td>init, clone, branch</td>
+            </tr>
+    
+            <tr>
+                <td>checkout, status, diff</td>
+            </tr>
+
+            <tr>
+                <td>add, commit, push</td>
+            </tr>
+            
+            <tr>
+                <td>pull, revert, merge</td>
+            </tr>
+
+            <tr>
+                <td>stash, rm, config,</td>
+            </tr>
+
+            <tr>
+                <td>reset, remote, fetch,</td>
+            </tr>
+
+            <tr>
+                <td>show, help, rebase</td>
+            </tr>
+
+            <tr>
+                <td>blame, tag</td>
+            </tr>
+        </table>
+
+        <h3>Siga abaixo as explicações de cada comando citado.</h3>
+        <br>
+
+        <h4>Comando init</h4>
+        <p>O comando git init cria um novo repositório do Git. Ele pode ser usado para converter um projeto existente e não versionado em um repositório do Git ou inicializar um novo repositório vazio.</p><br>
+o comando que informa seu git local que ele deve obter as informações de metadados mais recentes do repositório original (embora ainda não faça a transferência dos dados – é como verificar para ver se há mudanças disponíveis)
+        <h4>Comando clone</h4>
+        <p>O git clone é usado sobretudo para apontar para um repositório existente e fazer um clone ou cópia deste repositório no novo diretório, em outro local. O repositório original pode estar localizado no sistema de arquivos local ou em protocolos com suporte a acesso por máquinas remotas.</p><br>
+
+        <h4>Comando branch</h4>
+        <p>O comando git branch permite criar, listar, renomear e excluir ramificações. Ele não permite alternar entre as ramificações ou reunir um histórico bifurcado de novo.</p><br>
+
+        <h4>Comando checkout</h4>
+        <p>O comando git checkout permite navegar entre ramificações criadas pelo git branch . A verificação de uma ramificação atualiza os arquivos no diretório atual para que fique igual à versão armazenada nessa ramificação e diz ao Git para gravar todos os novos commits nessa ramificação.</p><br>
+
+        <h4>Comando status</h4>
+        <p>O comando git status exibe as condições do diretório de trabalho e da área de staging. Ele permite que você veja quais alterações foram despreparadas, quais não foram e quais arquivos não estão sendo monitorados pelo Git.</p><br>
+
+        <h4>Comando diff</h4>
+        <p>O git diff é um comando Git multiuso que, quando executado, realiza uma função de comparação nas fontes de dados Git. Essas fontes de dados podem ser commits, ramificações, arquivos e outros.</p><br>
+
+        <h4>Comando add</h4>
+        <p>A função principal do comando git add é promover alterações pendentes no diretório ativo para a área git staging . A área de staging é um dos recursos mais exclusivos do Git e pode levar um tempo para você se acostumar a ela se você estiver vindo de um contexto de SVN (ou mesmo de Mercurial).</p><br>
+
+        <h4>Comando commit</h4>
+        <p>Assim como ao salvar um arquivo que foi editado, um commit registra alterações em um ou mais arquivos no seu branch.</p><br>
+
+        <h4>Comando push</h4>
+        <p>O comando git push é usado para enviar o conteúdo do repositório local para um repositório remoto. O comando push transfere commits do repositório local a um repositório remoto. É o oposto do comando git fetch , que importa commits para branches locais, enquanto o comando push exporta commits para branches remotos.</p><br>
+        
+        <h4>Comando pull</h4>
+        <p>O comando git pull é usado para buscar e baixar conteúdo de repositórios remotos e fazer a atualização imediata ao repositório local para que os conteúdos sejam iguais. Fazer o merge de alterações upstream remotas no repositório local é algo comum em fluxos de trabalho de colaboração baseados em Git.</p><br>
+
+        <h4>Comando revert</h4>
+        <p></p><br>
+        
+        <h4>Comando merge</h4>
+        <p>O comando git revert é uma operação de desfazer avançada que oferece um método seguro de desfazer alterações. Em vez de excluir ou tornar commits órfãos no histórico de commits, uma reversão vai criar um commit novo que inverte as alterações especificadas.</p><br>
+
+        <h4>Comando show</h4>
+        <p>O git-show é um utilitário de linha de comando usado para exibir informações expandidas de objetos Git, como blobs, trees, marcações e commits. O git-show tem um comportamento específico por tipo do objeto.</p><br>
+
+        <h4>Comando help</h4>
+        <p>Exibe uma lista das guias úteis na saída padrão. Esta opção substitui qualquer outro comando ou nome da guia.</p><br>
+
+        <h4>Comando rebase</h4>
+        <p>O comando git rebase permite alterar com facilidade uma variedade de commits, modificando o histórico do seu repositório. É possível reordenar, editar ou combinar commits por squash. Normalmente, você usará git rebase para: Editar mensagens anteriores do commit.</p><br>
+
+        <h4>Comando blame</h4>
+        <p>O comando git blame é usado para examinar o conteúdo de um arquivo, linha por linha, e ver quando cada linha foi modificada pela última vez e quem foi o autor das modificações.</p><br>
+
+        <h4>Comando tag</h4>
+        <p>git tag é em geral usado para capturar um ponto no histórico que é usado para uma versão marcada (por exemplo, v1. 0.1). Um marcador é como uma ramificação que não muda. Diferente das ramificações, os marcadores depois de criados não têm mais histórico de commits.</p><br>
+
+        <h4>Comando stash</h4>
+        <p>O Git stash arquiva alterações não commitadas do seu local de trabalho, ou seja, ele volta para o estado do seu último commit guardando as alterações adicionais que você tinha feito. Fazendo uma analogia, é quase como se fizesse um backup das modificações dos seus arquivos.</p><br>
+
+        <h4>Comando rm</h4>
+        <p>O comando git rm é usado para remover arquivos de um repositório do Git. Ele pode ser considerado como o inverso do comando git add </p><br>
+
+        <h4>Comando config</h4>
+        <p>Permite ver e atribuir variáveis de configuração que controlam todos os aspectos de como o Git aparece e opera.</p><br>
+
+        <h4>Comando reset</h4>
+        <p>O principal uso do git reset é para desfazer as alterações do índice de staging. Uma redefinição --mixed vai mover qualquer alteração pendente do índice de staging de volta para o diretório de trabalho.</p><br>
+
+        <h4>Comando remote</h4>
+        <p>O comando git remote permite criar, ver e excluir conexões com outros repositórios. As conexões remotas são mais parecidas com marcadores em vez de links diretos para outros repositórios.</p><br>
+
+        <h4>Comando fetch</h4>
+        <p>O comando que informa seu git local que ele deve obter as informações de metadados mais recentes do repositório original (embora ainda não faça a transferência dos dados – é como verificar para ver se há mudanças disponíveis).</p><br>
+
+        <h1><mark>Clique no link abaixo para ir para a página do vídeo</mark></h1>
+        <a href="file:///home/2023.1.08.045/facul/trabalho%20de%20icc/video.html">Clique aqui</a> <br> <br>
+
+        <h1><mark>Clique no link abaixo para ir para a página do áudio.</mark></h1>
+        <a href="file:///home/2023.1.08.045/facul/trabalho%20de%20icc/audio.html">Clique aqui</a> <br> <br>
+    </body>
+</html>
